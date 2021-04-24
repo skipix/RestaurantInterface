@@ -1,0 +1,165 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="container " id="wrapper">
+    <div class="row sup ">
+        <div class="col-sm-4  logo" >
+            <img src="images/alogo.png" class="logo " height="120vw">
+        </div>
+        <div class="col-sm-4">
+            <h1 id="Title"> Select your Base</h1>
+        </div>
+        <div class="col-sm-4">
+        <a href="index.html" class="btn" > Return to Menu
+            <img src="images/refresh.jpg" height="100px">
+            </a>
+
+            
+        </div>
+    </div>
+    <div class="row middle">
+      <div class="col-lg-8 container grid">
+        
+            <div class="row">
+              <div class="col-sm">
+                  
+                <div class="container ">
+                    <div class="row ">
+                    <img src="images/udon.jpg" class="btn topping " id="udon" onclick="select('udon','base')">
+                    </div>
+                    <div class="row">
+                    <div class="col-8">
+                    <p class="top_name">Udon Noodles</p>
+                    </div>    
+                    <div class="col-4">
+                        <p class="top_price">2,50€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container ">
+                    <div class="row ">
+                    <img src="images/ramen.jpg" class="btn topping" id="ramen" onclick="select('ramen','base')">
+                    </div>
+                    <div class="row">
+                    <div class="col-8">
+                    <p class="top_name">Ramen Noodles</p>
+                    </div>    
+                    <div class="col-4">
+                        <p class="top_price">3,00€</p>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+              <div class="col-sm">
+
+
+                <div class="container ">
+                    <div class="row">
+                    <img src="images/soba.jpg" class="btn topping" id="soba" onclick="select('soba','base')">
+                    </div>
+                    <div class="row">
+                    <div class="col-8">
+                    <p class="top_name">Soba Noodles</p>
+                    </div>    
+                    <div class="col-4">
+                        <p class="top_price">2,50€</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                    <img src="images/rice.jpg" class="btn topping" id="rice" onclick="select('rice','base')">
+                    </div>
+                    <div class="row">
+                    <div class="col-8">
+                    <p class="top_name">Rice Noodles</p>
+                    </div>    
+                    <div class="col-4">
+                        <p class="top_price">3,00€</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+              <div class="col-sm">
+                
+                <div class="container">
+                    <div class="row">
+                    <img src="images/hokkien.jpg" class="btn topping" id="hokkien" onclick="select('hokkien','base')">
+                    </div>
+                    <div class="row">
+                    <div class="col-8">
+                    <p class="top_name">Hokkien Noodles</p>
+                    </div>    
+                    <div class="col-4">
+                        <p class="top_price">2,50€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                    <img src="images/shirataki.jpg" class="btn topping" id="shirataki" onclick="select('shirataki','base')">
+                    </div>
+                    <div class="row">
+                    <div class="col-8">
+                    <p class="top_name">Shirataki Noodles</p>
+                    </div>    
+                    <div class="col-4">
+                        <p class="top_price">3,50€</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-4 svgContainer">
+             <div id="svgTopping"> </div>
+            <div class="row">
+
+        <img src="images/wok.svg" class="svgImg">
+        <p id="svgName"> Choose a Base</p>
+            </div>
+      </div>
+    </div>
+    <div class="row inf">
+        <div class="col-sm">
+
+        <a href="index.html" class="btn" > 
+            <img src="images/right-arrow.jpg" style="transform: rotate(180deg);" height="100px">
+            Back to Menu    
+        </a>
+    </div>
+
+        <div class="col-sm" id="price">
+            <p> Price : </p>
+        </div>
+        <div class="col-sm next_btn" id="next_btn">
+
+            <a href="meat3.html" class="btn" > Select Meat
+            <img src="images/right-arrow.jpg" height="100px">
+            </a>
+
+        </div>
+        
+    </div>
+  </div>
+
+
+  
+
+  <script src="scripts.js"></script>
+</body>
+</html>

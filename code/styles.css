@@ -1,0 +1,114 @@
+* {
+    font-size: large;
+    padding: 0%;
+    
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+
+}
+body div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body > img{
+    position: absolute;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin : auto;
+    z-index: -10;
+    opacity: 0.5;
+    
+    /* background-image: url('./images/wok-up-background.png'); */
+    /* background-size: 100%;     */
+}
+body div img {
+    margin-left: auto;
+    margin-right: auto;
+}
+#welcome {
+    font-size: 13vw;
+    font-family: cursive;
+}
+
+body h3 {
+    font-size: 5vw;
+    font-family: cursive;
+}
+#wrapper {
+    /* min-height: 100%;  */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: rgba(51,51,51,0.7); */
+    z-index: 10;
+}
+
+.topping {
+    border-radius: 30px;
+    height: 200px;
+    object-fit: cover;
+    padding: 0%;
+
+}
+
+.topping:active {
+    border-radius: 50%;
+}
+
+.grid{
+    /* border-style: dashed; */
+
+}
+.svgContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.svgImage{
+    height: auto;
+    
+}
+
+
+.test{
+    background-image: url('images/hot-pot2.jpg') ;
+}
+
+.top_name{
+    font-size: smaller;
+    margin-bottom: 0%;
+}
+
+.top_price{
+    font-size: small;
+}
+
+.next_btn {
+    visibility: hidden;
+}
+
+#price {
+    margin: auto;
+}
+
+#begin {
+    margin-top: 7vw;
+    margin-bottom: 5vw;
+    /* background-color: blue; */
+}
+
+#wok1 {
+    visibility: hidden;
+}
+
+.logo {
+    margin-left: 0%;
+}
